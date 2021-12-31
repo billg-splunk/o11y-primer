@@ -7,7 +7,7 @@ It's not meant to completely tackle the topic of observability. There are many b
 
 It is meant to teach about some of the concepts around observability (i.e. Docker, Kubernetes, various clouds, different deployment types, etc.), offer some example commands and configurations, and provide some specific examples on how it can be used.
 
-Since I work at Splunk many of my examples will be based on using Splunk Observability Cloud but they could be easily adapted for other solutions, especially if they are built on using [Open Telemetry](https://opentelemetry.io/) for getting data in.
+Since I work at Splunk some of my examples will be based on using Splunk Observability Cloud but they could be easily adapted for other solutions, especially if they are built on using [Open Telemetry](https://opentelemetry.io/) for getting data in. Most Splunk-specific information will be in the Splunk section.
 
 It will forever be a "work in progress". And any examples are meant to be just that. Use at your own risk.
 
@@ -26,3 +26,9 @@ It will forever be a "work in progress". And any examples are meant to be just t
 * [Azure](0800-Azure/README.md)
 * [Deployment Types](0900-Deployments/README.md)
 * CI/CD
+* [Splunk Observability](2100-Splunk/README.md)
+  * [Splunk OTel Collector (Distribution)](2100-Splunk/2110-SplunkOTelCollector/README.md)
+  * [Splunk Metrics](2100-Splunk/2120-SplunkMetrics/README.md)
+  * [Splunk Traces](2100-Splunk/2130-SplunkTraces/README.md)
+  * [Splunk Logs](2100-Splunk/2140-SplunkLogs/README.md)
+  * [Splunk Administration](2100-Splunk/2150-Administration/README.md)

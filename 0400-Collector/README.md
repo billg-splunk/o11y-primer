@@ -1,0 +1,4 @@
+# OTel Collector
+
+## General Concepts
+
